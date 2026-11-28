@@ -24,3 +24,15 @@ Synthetic data only. No employer or client material. Python standard library onl
 | 5 | Self-optimizing test loop | `05-test-loop` | demo + draft |
 
 Run all tests: `./run_tests.sh` (each demo folder is tested on its own)
+
+
+---
+
+## Portfolio, reproducibility & safe use
+
+- [Sangram Ghatge — complete engineering portfolio](https://github.com/sghatge/sghatge)
+- [OPSFORGE Build Lab](https://sghatge.streamlit.app/) — portfolio index only; this project is documented and maintained in its own repository.
+
+**Reproducibility:** start with the setup and usage instructions in this README and the linked project documentation. Run the repository's available checks before changing behaviour; if no test command is documented, treat that as a validation task rather than assuming tests pass.
+
+**Safe-use boundary:** this is an independent portfolio project. Use synthetic or sanitized examples. Do not treat sample configurations, assessments, checklists or simulated outputs as production approvals or connect the project to customer data or live enterprise systems without independent security, privacy, legal and operational review. Review dependencies, licences and secrets handling before deployment.
